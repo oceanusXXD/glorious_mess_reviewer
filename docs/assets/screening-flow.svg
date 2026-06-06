@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+  <title id="title">Risk-first screening workflow</title>
+  <desc id="desc">A flow diagram showing local precheck, risk-first routing, review panels, scoring, reports, and storage.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#30404f"/>
+    </marker>
+    <style>
+      .bg { fill: #f7f4ef; }
+      .box { fill: #ffffff; stroke: #d8d2c7; stroke-width: 1.6; }
+      .risk { fill: #fff2ef; stroke: #d94f3d; stroke-width: 1.8; }
+      .panel { fill: #eef6ff; stroke: #3577b8; stroke-width: 1.6; }
+      .store { fill: #f0f8f2; stroke: #3f8f5b; stroke-width: 1.6; }
+      .ink { fill: #1e252b; font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .muted { fill: #66717c; font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .title { font-size: 42px; font-weight: 750; }
+      .head { font-size: 22px; font-weight: 700; }
+      .body { font-size: 16px; }
+      .tiny { font-size: 14px; }
+      .arrow { stroke: #30404f; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+      .soft-arrow { stroke: #7b8793; stroke-width: 2; stroke-dasharray: 7 6; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="620"/>
+
+  <text x="64" y="70" class="ink title">Risk-first screening workflow</text>
+  <text x="66" y="102" class="muted body">The workflow blocks unsafe or unreviewable drafts before venue-fit panels can reward style.</text>
+
+  <rect x="64" y="168" width="170" height="96" rx="8" class="box"/>
+  <text x="88" y="205" class="ink head">Draft JSON</text>
+  <text x="88" y="232" class="muted body">ManuscriptInput</text>
+
+  <rect x="286" y="168" width="184" height="96" rx="8" class="box"/>
+  <text x="312" y="205" class="ink head">Local dry-run</text>
+  <text x="312" y="232" class="muted body">schema, sections, risk</text>
+
+  <rect x="522" y="160" width="190" height="112" rx="8" class="risk"/>
+  <text x="548" y="198" class="ink head">Risk gate</text>
+  <text x="548" y="225" class="muted body">blocked, unsafe, or</text>
+  <text x="548" y="247" class="muted body">too thin to review</text>
+
+  <rect x="286" y="366" width="184" height="102" rx="8" class="risk"/>
+  <text x="312" y="402" class="ink head">Human review</text>
+  <text x="312" y="429" class="muted body">risk or hard failure</text>
+
+  <rect x="762" y="122" width="292" height="204" rx="8" class="panel"/>
+  <text x="790" y="164" class="ink head">Typed review panels</text>
+  <rect x="790" y="190" width="108" height="48" rx="6" fill="#ffffff" stroke="#b7d4ef"/>
+  <text x="814" y="221" class="ink body">Evidence</text>
+  <rect x="918" y="190" width="108" height="48" rx="6" fill="#ffffff" stroke="#b7d4ef"/>
+  <text x="949" y="221" class="ink body">Value</text>
+  <rect x="790" y="258" width="236" height="48" rx="6" fill="#ffffff" stroke="#b7d4ef"/>
+  <text x="840" y="289" class="ink body">Final council</text>
+
+  <rect x="762" y="380" width="292" height="126" rx="8" class="store"/>
+  <text x="790" y="420" class="ink head">Outputs</text>
+  <text x="790" y="450" class="muted body">ReviewOutput, Markdown report</text>
+  <text x="790" y="476" class="muted body">Display cards, overview, SQLite trail</text>
+
+  <path d="M234 216 H286" class="arrow"/>
+  <path d="M470 216 H522" class="arrow"/>
+  <path d="M712 216 H762" class="arrow"/>
+  <path d="M617 272 C590 332 526 390 470 414" class="arrow"/>
+  <path d="M908 326 V380" class="arrow"/>
+  <path d="M762 452 C642 512 512 512 418 468" class="soft-arrow"/>
+
+  <text x="529" y="323" class="muted tiny">risk or hard fail</text>
+  <text x="724" y="198" class="muted tiny">reviewable</text>
+  <text x="534" y="538" class="muted tiny">author repair loop through list-review-displays and review-display-overview</text>
+</svg>

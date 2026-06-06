@@ -1,0 +1,8 @@
+{
+  "manuscript_id": "partial-failure-004",
+  "title": "A Bucket Brigade Analysis of Meme Transport in Group Chats",
+  "abstract": "We analyze how memes are relayed across overloaded group chats and argue that forwarding latency predicts conversational collapse.",
+  "body": "Introduction\nThe manuscript studies forwarding chains in group chats and proposes that meme transport behaves like an overloaded bucket brigade.\n\nMethod\nThe paper manually annotates forwarding events and classifies response delays.\n\nResults\nIt reports several plausible patterns but leaves the evidence thin.\n\nDiscussion\nThe idea is interesting but underspecified.\n\nConclusion\nThe framing is memorable.\n\nLimitations\nThe sample is small and manually labeled.",
+  "authors": ["E. Relay"],
+  "references": ["Meme Logistics Letters 2025"]
+}

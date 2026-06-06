@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+  <title id="title">Display queue overview dashboard</title>
+  <desc id="desc">A dashboard-style summary of review queue lanes, gate pressure, and repair hotspots.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f4ef; }
+      .panel { fill: #ffffff; stroke: #d8d2c7; stroke-width: 1.5; }
+      .ink { fill: #1e252b; font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .muted { fill: #66717c; font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .tiny { font-size: 15px; }
+      .small { font-size: 18px; }
+      .medium { font-size: 24px; font-weight: 650; }
+      .large { font-size: 42px; font-weight: 750; }
+      .label { font-size: 14px; letter-spacing: 0.4px; text-transform: uppercase; }
+      .red { fill: #d94f3d; }
+      .amber { fill: #d99c32; }
+      .blue { fill: #3577b8; }
+      .green { fill: #3f8f5b; }
+      .line { stroke-linecap: round; stroke-width: 10; }
+      .lane-line { stroke-linecap: round; stroke-width: 14; }
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="620" rx="0"/>
+
+  <text x="64" y="70" class="ink large">Review display queue</text>
+  <text x="66" y="102" class="muted small">Recent persisted reviews summarized for an editor dashboard</text>
+
+  <rect x="64" y="135" width="220" height="112" rx="8" class="panel"/>
+  <text x="88" y="172" class="muted label">total reviews</text>
+  <text x="88" y="222" class="ink large">3</text>
+
+  <rect x="312" y="135" width="220" height="112" rx="8" class="panel"/>
+  <text x="336" y="172" class="muted label">needs human review</text>
+  <text x="336" y="222" class="red large">1</text>
+
+  <rect x="560" y="135" width="220" height="112" rx="8" class="panel"/>
+  <text x="584" y="172" class="muted label">ready for next stage</text>
+  <text x="584" y="222" class="green large">0</text>
+
+  <rect x="808" y="135" width="248" height="112" rx="8" class="panel"/>
+  <text x="832" y="172" class="muted label">avg weighted confidence</text>
+  <text x="832" y="222" class="blue large">0.62</text>
+
+  <rect x="64" y="282" width="488" height="258" rx="8" class="panel"/>
+  <text x="88" y="324" class="ink medium">Lane counts</text>
+  <text x="88" y="354" class="muted small">Queue pressure by next-action lane</text>
+
+  <circle cx="96" cy="397" r="7" class="red"/>
+  <text x="116" y="403" class="ink small">human_risk_review</text>
+  <line x1="306" y1="397" x2="494" y2="397" class="lane-line" stroke="#d94f3d"/>
+  <text x="510" y="403" class="ink small">1</text>
+
+  <circle cx="96" cy="447" r="7" class="amber"/>
+  <text x="116" y="453" class="ink small">author_revision</text>
+  <line x1="306" y1="447" x2="494" y2="447" class="lane-line" stroke="#d99c32"/>
+  <text x="510" y="453" class="ink small">1</text>
+
+  <circle cx="96" cy="497" r="7" class="blue"/>
+  <text x="116" y="503" class="ink small">submission_readiness</text>
+  <line x1="306" y1="497" x2="494" y2="497" class="lane-line" stroke="#3577b8"/>
+  <text x="510" y="503" class="ink small">1</text>
+
+  <rect x="588" y="282" width="468" height="258" rx="8" class="panel"/>
+  <text x="612" y="324" class="ink medium">Repair hotspots</text>
+  <text x="612" y="354" class="muted small">Risk and blocked lanes are excluded from author-repair pressure</text>
+
+  <text x="612" y="402" class="ink small">result_payload</text>
+  <line x1="780" y1="397" x2="1004" y2="397" class="line" stroke="#3f8f5b"/>
+  <text x="1018" y="403" class="ink small">5.0</text>
+
+  <text x="612" y="452" class="ink small">core_claim_clarity</text>
+  <line x1="780" y1="447" x2="946" y2="447" class="line" stroke="#d99c32"/>
+  <text x="1018" y="453" class="ink small">3.0</text>
+
+  <text x="612" y="502" class="ink small">method_legibility</text>
+  <line x1="780" y1="497" x2="872" y2="497" class="line" stroke="#3577b8"/>
+  <text x="1018" y="503" class="ink small">1.1</text>
+
+  <text x="64" y="584" class="muted tiny">Data source: ReviewDisplayQueueOverview from /reviews/display/overview or review-display-overview</text>
+</svg>

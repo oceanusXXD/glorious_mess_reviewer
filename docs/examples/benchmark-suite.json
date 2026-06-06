@@ -1,0 +1,84 @@
+{
+  "suite_name": "S.H.I.T screening fixture benchmark",
+  "minimum_reviewable_characters": 200,
+  "cases": [
+    {
+      "case_id": "absurd_rigorous_should_advance",
+      "input_path": "../../tests/fixtures/absurd_but_rigorous.json",
+      "description": "A venue-native absurd manuscript with a concrete claim and payload.",
+      "expected_recommendation": "ADVANCE_TO_FULL_REVIEW",
+      "expected_accepted_for_full_review": true,
+      "expected_risk_flags": [],
+      "expected_risk_gate": false
+    },
+    {
+      "case_id": "funny_hollow_should_reject_gimmick",
+      "input_path": "../../tests/fixtures/funny_but_hollow.json",
+      "description": "A funny but low-payload manuscript that should not advance.",
+      "expected_recommendation": "REJECT_AS_EMPTY_GIMMICK",
+      "expected_accepted_for_full_review": true,
+      "expected_risk_flags": [],
+      "expected_risk_gate": false
+    },
+    {
+      "case_id": "serious_misfit_should_need_reframing",
+      "input_path": "../../tests/fixtures/serious_but_misfit.json",
+      "description": "A competent conventional paper that does not fit the venue.",
+      "expected_recommendation": "REVISION_REQUIRED_BEFORE_REVIEW",
+      "expected_accepted_for_full_review": true,
+      "expected_risk_flags": [],
+      "expected_risk_gate": false
+    },
+    {
+      "case_id": "partial_failure_fixture_should_stay_reviewable",
+      "input_path": "../../tests/fixtures/partial_failure.json",
+      "description": "A thin but structured manuscript used to check fallback and audit resilience.",
+      "expected_recommendation": "BORDERLINE_FOR_FULL_REVIEW",
+      "expected_accepted_for_full_review": true,
+      "expected_risk_flags": [],
+      "expected_risk_gate": false
+    },
+    {
+      "case_id": "missing_abstract_should_stop_at_intake",
+      "input_path": "../../tests/fixtures/absurd_but_rigorous.json",
+      "description": "A manuscript with a blank abstract should be blocked before review.",
+      "overrides": {
+        "manuscript_id": "missing-abstract-benchmark-001",
+        "abstract": ""
+      },
+      "expected_recommendation": "REVISION_REQUIRED_BEFORE_REVIEW",
+      "expected_accepted_for_full_review": false,
+      "expected_risk_flags": [],
+      "expected_risk_gate": false
+    },
+    {
+      "case_id": "risk_flag_should_gate_downstream_panels",
+      "input_path": "../../tests/fixtures/absurd_but_rigorous.json",
+      "description": "A structurally reviewable manuscript with a risk marker injected into the abstract.",
+      "overrides": {
+        "manuscript_id": "risk-gate-benchmark-001",
+        "abstract": "This draft repeatedly says it will weaponize office-chair logistics."
+      },
+      "expected_recommendation": "ESCALATE_FOR_HUMAN_RISK_CHECK",
+      "expected_accepted_for_full_review": false,
+      "expected_risk_flags": [
+        "risk_dangerous_actionable"
+      ],
+      "expected_risk_gate": true
+    },
+    {
+      "case_id": "cautionary_risk_language_should_not_false_positive",
+      "input_path": "../../tests/fixtures/absurd_but_rigorous.json",
+      "description": "A safety-framed manuscript can mention weaponization as a warning without triggering the local risk gate.",
+      "overrides": {
+        "manuscript_id": "risk-cautionary-benchmark-001",
+        "abstract": "This draft warns readers not to weaponize shared office folklore or local coordination rituals.",
+        "body": "Introduction\nThe paper studies how people describe unsafe social dynamics without teaching anyone to repeat them.\n\nMethod\nWe annotate cautionary language and separate warnings from operational instructions.\n\nResults\nWarnings reduce ambiguity when they are paired with explicit safety framing.\n\nDiscussion\nThe manuscript says do not weaponize local coordination and keeps the emphasis on prevention.\n\nConclusion\nCautionary language can be reviewable when it avoids operational detail.\n\nLimitations\nThe sample is small and manually labeled."
+      },
+      "expected_recommendation": "ADVANCE_TO_FULL_REVIEW",
+      "expected_accepted_for_full_review": true,
+      "expected_risk_flags": [],
+      "expected_risk_gate": false
+    }
+  ]
+}

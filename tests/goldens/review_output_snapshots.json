@@ -1,0 +1,2067 @@
+{
+  "absurd_but_rigorous.json": {
+    "workflow_session_id": "<normalized>",
+    "manuscript_id": "absurd-rigorous-001",
+    "resolved_venue_profile": {
+      "preset_name": "shit-screening-default",
+      "venue_name": "S.H.I.T Initial Screening Desk",
+      "tone": "Independent initial screening for absurd submissions that may contain real payload and deserve the next review stage.",
+      "required_sections": [
+        "title",
+        "abstract",
+        "body",
+        "conclusion",
+        "limitations"
+      ],
+      "minimum_reviewable_characters": 200,
+      "scoring_weights": {
+        "venue_fit": 1.0,
+        "core_claim_clarity": 1.2,
+        "structural_integrity": 1.1,
+        "method_or_reasoning_legibility": 1.1,
+        "evidence_checkability": 1.0,
+        "result_payload": 1.25,
+        "limitation_honesty": 0.8,
+        "zhenghuo_execution": 1.0,
+        "absurd_originality": 1.0,
+        "meme_to_argument_conversion": 1.1,
+        "community_discussion_value": 0.9,
+        "overall_merit": 1.35
+      },
+      "rejection_rules": [
+        "missing_title_or_abstract_or_body_is_hard_failure",
+        "no_core_claim_caps_overall_at_two",
+        "no_checkable_evidence_caps_evidence_at_two",
+        "gimmick_without_payload_caps_overall_at_three",
+        "unsafe_or_abusive_content_sets_risk_flag",
+        "low_confidence_advancement_gate"
+      ],
+      "recommendation_policy": {
+        "advance_to_full_review_min_final_score": 4.2,
+        "advance_with_payload_reservations_min_final_score": 3.7,
+        "borderline_for_full_review_min_final_score": 2.8,
+        "payload_floor_for_advance": 3,
+        "venue_fit_floor_for_advance": 3
+      }
+    },
+    "paper_summary": "This paper studies office-chair drift as a humorous but credible lens on coordination failure in shared labs.",
+    "extracted_core_claim": "Ambiguity of ownership and borrowing norms explains chair drift, and the absurd framing helps surface that argument.",
+    "scores_by_dimension": {
+      "venue_fit": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "core_claim_clarity": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "structural_integrity": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "method_or_reasoning_legibility": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "evidence_checkability": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "result_payload": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "limitation_honesty": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "zhenghuo_execution": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "absurd_originality": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "meme_to_argument_conversion": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "community_discussion_value": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "overall_merit": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Merged panel judgment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "panel evidence",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      }
+    },
+    "hard_failures": [],
+    "major_strengths": [
+      "The manuscript is funny, coherent, and actually says something testable."
+    ],
+    "major_weaknesses": [
+      "Evidence remains local and manually collected."
+    ],
+    "required_revisions": [
+      "Clarify the observational protocol."
+    ],
+    "optional_revisions": [
+      "Add one sentence that states the social-technology contribution upfront."
+    ],
+    "risk_flags": [],
+    "rule_hits": [],
+    "agent_failures": [],
+    "final_score": 4.76,
+    "final_recommendation": "ADVANCE_TO_FULL_REVIEW",
+    "final_rationale": "The manuscript combines venue fit, argument clarity, and real payload unusually well. Recommendation basis: The manuscript clears initial screening with enough payload and venue-aware execution to move into full review.",
+    "human_readable_review": "Manuscript absurd-rigorous-001: This paper studies office-chair drift as a humorous but credible lens on coordination failure in shared labs.\nCore claim: Ambiguity of ownership and borrowing norms explains chair drift, and the absurd framing helps surface that argument.\nScreening decision: ADVANCE_TO_FULL_REVIEW\nWhy: The manuscript clears initial screening with enough payload and venue-aware execution to move into full review.\nStrengths: The manuscript is funny, coherent, and actually says something testable.\nWeaknesses: Evidence remains local and manually collected.\nRequired revisions: Clarify the observational protocol.\nRisk flags: none",
+    "community_facing_blurb": "A rare paper that arrives with a bit, keeps the bit under control, and still leaves behind usable insight.",
+    "raw_agent_outputs": {
+      "HanCeGateAgent": {
+        "status": "success",
+        "artifact_type": "precheck_output",
+        "payload": {
+          "decision": "pass",
+          "minimum_reviewable": true,
+          "hard_failures": [],
+          "missing_sections": [],
+          "risk_flags": [],
+          "notes": [
+            "All core sections are present and reviewable."
+          ]
+        }
+      },
+      "EvidenceSludgeEngine": {
+        "status": "success",
+        "artifact_type": "evidence_output",
+        "payload": {
+          "paper_summary": "A humorous but methodical study of office-chair drift as a proxy for coordination breakdown.",
+          "extracted_core_claim": "Ambiguity of ownership drives chair drift, and the joke framing supports a real coordination argument.",
+          "argument_status": "clear",
+          "evidence_snippets": [
+            {
+              "excerpt": "We tracked thirty-seven chairs with colored tape.",
+              "source_type": "manuscript",
+              "source_section": null,
+              "note": null
+            },
+            {
+              "excerpt": "The strongest predictor was ambiguity of ownership and local norms around borrowing.",
+              "source_type": "manuscript",
+              "source_section": null,
+              "note": null
+            }
+          ],
+          "major_strengths": [
+            "The paper turns a ridiculous premise into a falsifiable systems claim."
+          ],
+          "major_weaknesses": [
+            "The sample size is small and manually observed."
+          ],
+          "required_revisions": [
+            "Clarify how observation bias affected the drift logs."
+          ],
+          "optional_revisions": [
+            "Add one more reproducibility detail for the logging sheet."
+          ],
+          "risk_flags": [],
+          "dimension_scores": {
+            "core_claim_clarity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The manuscript states a clear claim and keeps returning to it.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "chair drift is a comedic proxy for neglected system boundaries",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "structural_integrity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "All key sections are present, including conclusion and limitations.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Conclusion",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                },
+                {
+                  "excerpt": "Limitations",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "method_or_reasoning_legibility": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The method is simple but traceable and reproducible enough.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "tracked thirty-seven chairs with colored tape",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "evidence_checkability": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "Evidence is modest but concrete and inspectable.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "movement logs",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                },
+                {
+                  "excerpt": "manual observation sheets",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "result_payload": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The paper contributes an actual argument rather than vibes alone.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "something falsifiable about social technology",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "limitation_honesty": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The manuscript explicitly acknowledges sample and causality limits.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "does not establish causality and may overfit",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          }
+        }
+      },
+      "AbsurdityButMakeItRigorous": {
+        "status": "success",
+        "artifact_type": "value_output",
+        "payload": {
+          "zhenghuo_verdict": "High-grade absurd framing that still serves the claim.",
+          "novelty_label": "fresh",
+          "major_strengths": [
+            "Humor amplifies, rather than replaces, the systems argument."
+          ],
+          "major_weaknesses": [
+            "The joke may initially hide the seriousness of the payload."
+          ],
+          "required_revisions": [
+            "Make the community takeaway explicit in the abstract."
+          ],
+          "optional_revisions": [
+            "Tighten one paragraph of scene-setting comedy."
+          ],
+          "risk_flags": [],
+          "dimension_scores": {
+            "venue_fit": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "This is exactly the kind of absurd-but-rigorous manuscript the venue wants.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "The joke framing helps reveal a broader coordination pattern",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "zhenghuo_execution": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The bit lands and remains disciplined.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Chair drift is a comedic proxy",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "absurd_originality": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The premise is fresh without feeling random.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "rolling office chairs are latent distributed systems",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "meme_to_argument_conversion": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The meme premise successfully becomes a real argument.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "humor to attract attention, but the payload is a tractable argument",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "community_discussion_value": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The paper should trigger useful discussion and sharing.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "invisible labor",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "overall_merit": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The manuscript is strong across both serious and absurd dimensions.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "falsifiable",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          }
+        }
+      },
+      "FinalSedimentCouncil": {
+        "status": "success",
+        "artifact_type": "meta_output",
+        "payload": {
+          "paper_summary": "This paper studies office-chair drift as a humorous but credible lens on coordination failure in shared labs.",
+          "extracted_core_claim": "Ambiguity of ownership and borrowing norms explains chair drift, and the absurd framing helps surface that argument.",
+          "scores_by_dimension": {
+            "venue_fit": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "core_claim_clarity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "structural_integrity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "method_or_reasoning_legibility": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "evidence_checkability": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "result_payload": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "limitation_honesty": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "zhenghuo_execution": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "absurd_originality": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "meme_to_argument_conversion": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "community_discussion_value": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "overall_merit": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Merged panel judgment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "panel evidence",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          },
+          "major_strengths": [
+            "The manuscript is funny, coherent, and actually says something testable."
+          ],
+          "major_weaknesses": [
+            "Evidence remains local and manually collected."
+          ],
+          "required_revisions": [
+            "Clarify the observational protocol."
+          ],
+          "optional_revisions": [
+            "Add one sentence that states the social-technology contribution upfront."
+          ],
+          "risk_flags": [],
+          "final_rationale": "The manuscript combines venue fit, argument clarity, and real payload unusually well.",
+          "community_facing_blurb": "A rare paper that arrives with a bit, keeps the bit under control, and still leaves behind usable insight."
+        }
+      }
+    },
+    "created_at": "<normalized>"
+  },
+  "funny_but_hollow.json": {
+    "workflow_session_id": "<normalized>",
+    "manuscript_id": "funny-hollow-002",
+    "resolved_venue_profile": {
+      "preset_name": "shit-screening-default",
+      "venue_name": "S.H.I.T Initial Screening Desk",
+      "tone": "Independent initial screening for absurd submissions that may contain real payload and deserve the next review stage.",
+      "required_sections": [
+        "title",
+        "abstract",
+        "body",
+        "conclusion",
+        "limitations"
+      ],
+      "minimum_reviewable_characters": 200,
+      "scoring_weights": {
+        "venue_fit": 1.0,
+        "core_claim_clarity": 1.2,
+        "structural_integrity": 1.1,
+        "method_or_reasoning_legibility": 1.1,
+        "evidence_checkability": 1.0,
+        "result_payload": 1.25,
+        "limitation_honesty": 0.8,
+        "zhenghuo_execution": 1.0,
+        "absurd_originality": 1.0,
+        "meme_to_argument_conversion": 1.1,
+        "community_discussion_value": 0.9,
+        "overall_merit": 1.35
+      },
+      "rejection_rules": [
+        "missing_title_or_abstract_or_body_is_hard_failure",
+        "no_core_claim_caps_overall_at_two",
+        "no_checkable_evidence_caps_evidence_at_two",
+        "gimmick_without_payload_caps_overall_at_three",
+        "unsafe_or_abusive_content_sets_risk_flag",
+        "low_confidence_advancement_gate"
+      ],
+      "recommendation_policy": {
+        "advance_to_full_review_min_final_score": 4.2,
+        "advance_with_payload_reservations_min_final_score": 3.7,
+        "borderline_for_full_review_min_final_score": 2.8,
+        "payload_floor_for_advance": 3,
+        "venue_fit_floor_for_advance": 3
+      }
+    },
+    "paper_summary": "The manuscript is a coherent joke object but not a coherent paper.",
+    "extracted_core_claim": "unknown",
+    "scores_by_dimension": {
+      "venue_fit": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "The venue can tolerate the tone.",
+        "supporting_evidence": [
+          {
+            "excerpt": "funny",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "core_claim_clarity": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "There is no operational core claim.",
+        "supporting_evidence": [
+          {
+            "excerpt": "vibes",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "structural_integrity": {
+        "score": 3,
+        "confidence": 0.86,
+        "reason": "Sections exist but do little work.",
+        "supporting_evidence": [
+          {
+            "excerpt": "Method",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "method_or_reasoning_legibility": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "Reasoning is absent.",
+        "supporting_evidence": [
+          {
+            "excerpt": "trusted the process",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "evidence_checkability": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "Evidence is absent.",
+        "supporting_evidence": [
+          {
+            "excerpt": "no numbers",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "result_payload": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "No real payload appears.",
+        "supporting_evidence": [
+          {
+            "excerpt": "Snacks are destiny",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "limitation_honesty": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "Limitations are not meaningfully discussed.",
+        "supporting_evidence": [
+          {
+            "excerpt": "admit nothing",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "zhenghuo_execution": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "The bit lands loudly.",
+        "supporting_evidence": [
+          {
+            "excerpt": "meme energy",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "absurd_originality": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "The framing is amusingly odd.",
+        "supporting_evidence": [
+          {
+            "excerpt": "snack-based computing",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "meme_to_argument_conversion": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "The meme never becomes an argument.",
+        "supporting_evidence": [
+          {
+            "excerpt": "only slogans",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "community_discussion_value": {
+        "score": 3,
+        "confidence": 0.86,
+        "reason": "It would spread more than it would teach.",
+        "supporting_evidence": [
+          {
+            "excerpt": "quotable",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "overall_merit": {
+        "score": 2,
+        "confidence": 0.86,
+        "reason": "No identifiable core claim, so overall merit is capped by rule.",
+        "supporting_evidence": [
+          {
+            "excerpt": "funny",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      }
+    },
+    "hard_failures": [],
+    "major_strengths": [
+      "The joke is easy to parse."
+    ],
+    "major_weaknesses": [
+      "The manuscript has almost no checkable payload."
+    ],
+    "required_revisions": [
+      "Define a measurable task and gather evidence."
+    ],
+    "optional_revisions": [
+      "Reduce slogan density."
+    ],
+    "risk_flags": [],
+    "rule_hits": [
+      {
+        "code": "no_core_claim_caps_overall",
+        "description": "Without a recognizable core claim, overall merit cannot exceed 2.",
+        "effect": "overall_merit capped at 2",
+        "triggered": true
+      }
+    ],
+    "agent_failures": [],
+    "final_score": 2.2,
+    "final_recommendation": "REJECT_AS_EMPTY_GIMMICK",
+    "final_rationale": "The manuscript is lively but currently hollow. No identifiable core claim was found, which caps overall merit. Recommendation basis: The manuscript has visible gimmick energy but too little payload to justify advancing beyond screening.",
+    "human_readable_review": "Manuscript funny-hollow-002: The manuscript is a coherent joke object but not a coherent paper.\nCore claim: unknown\nScreening decision: REJECT_AS_EMPTY_GIMMICK\nWhy: The manuscript has visible gimmick energy but too little payload to justify advancing beyond screening.\nStrengths: The joke is easy to parse.\nWeaknesses: The manuscript has almost no checkable payload.\nRequired revisions: Define a measurable task and gather evidence.\nRisk flags: none",
+    "community_facing_blurb": "An amusing snack-powered apparition that still needs an argument to qualify as a paper.",
+    "raw_agent_outputs": {
+      "HanCeGateAgent": {
+        "status": "success",
+        "artifact_type": "precheck_output",
+        "payload": {
+          "decision": "pass",
+          "minimum_reviewable": true,
+          "hard_failures": [],
+          "missing_sections": [],
+          "risk_flags": [],
+          "notes": [
+            "The manuscript is reviewable even though it is thin."
+          ]
+        }
+      },
+      "EvidenceSludgeEngine": {
+        "status": "success",
+        "artifact_type": "evidence_output",
+        "payload": {
+          "paper_summary": "A snack-vibes manifesto that gestures at computation without providing an operational argument.",
+          "extracted_core_claim": "unknown",
+          "argument_status": "slogan_only",
+          "evidence_snippets": [
+            {
+              "excerpt": "The method section says we trusted the process.",
+              "source_type": "manuscript",
+              "source_section": null,
+              "note": null
+            }
+          ],
+          "major_strengths": [
+            "The comedic premise is easy to understand."
+          ],
+          "major_weaknesses": [
+            "There is no measurable claim, protocol, or evidence."
+          ],
+          "required_revisions": [
+            "Define what counts as computational improvement."
+          ],
+          "optional_revisions": [
+            "Replace slogans with a testable setup."
+          ],
+          "risk_flags": [],
+          "dimension_scores": {
+            "core_claim_clarity": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "The manuscript never defines a real claim.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "the vibes are immaculate",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "structural_integrity": {
+              "score": 3,
+              "confidence": 0.86,
+              "reason": "The sections exist, but their content is skeletal.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Method",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                },
+                {
+                  "excerpt": "Results",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "method_or_reasoning_legibility": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "There is no real method to trace.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "we trusted the process",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "evidence_checkability": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "No checkable evidence is supplied.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "There are no numbers",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "result_payload": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "The manuscript offers a posture rather than a result.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Snacks are destiny",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "limitation_honesty": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "The limitation section refuses to admit meaningful boundaries.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "We admit nothing",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          }
+        }
+      },
+      "AbsurdityButMakeItRigorous": {
+        "status": "success",
+        "artifact_type": "value_output",
+        "payload": {
+          "zhenghuo_verdict": "Funny on the surface, but the bit does not convert into substance.",
+          "novelty_label": "empty_gimmick",
+          "major_strengths": [
+            "The meme energy is undeniable."
+          ],
+          "major_weaknesses": [
+            "The joke replaces the argument."
+          ],
+          "required_revisions": [
+            "Turn the snack premise into a measurable hypothesis."
+          ],
+          "optional_revisions": [
+            "Keep one joke and cut the rest."
+          ],
+          "risk_flags": [],
+          "dimension_scores": {
+            "venue_fit": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The tone fits the venue even though the payload does not.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "intentionally funny and quotable",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "zhenghuo_execution": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The bit is loud and unmistakable.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "clear meme energy",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "absurd_originality": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The premise is silly but not entirely stale.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "snack-based computing",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "meme_to_argument_conversion": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "The meme never matures into an argument.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "no distinction between morale and performance",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "community_discussion_value": {
+              "score": 3,
+              "confidence": 0.86,
+              "reason": "People would share it, but mostly as a joke.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "quotable",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "overall_merit": {
+              "score": 3,
+              "confidence": 0.86,
+              "reason": "Surface entertainment exists, but substance is weak.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "funny",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          }
+        }
+      },
+      "FinalSedimentCouncil": {
+        "status": "success",
+        "artifact_type": "meta_output",
+        "payload": {
+          "paper_summary": "The manuscript is a coherent joke object but not a coherent paper.",
+          "extracted_core_claim": "unknown",
+          "scores_by_dimension": {
+            "venue_fit": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The venue can tolerate the tone.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "funny",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "core_claim_clarity": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "There is no operational core claim.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "vibes",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "structural_integrity": {
+              "score": 3,
+              "confidence": 0.86,
+              "reason": "Sections exist but do little work.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Method",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "method_or_reasoning_legibility": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "Reasoning is absent.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "trusted the process",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "evidence_checkability": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "Evidence is absent.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "no numbers",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "result_payload": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "No real payload appears.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Snacks are destiny",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "limitation_honesty": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "Limitations are not meaningfully discussed.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "admit nothing",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "zhenghuo_execution": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The bit lands loudly.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "meme energy",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "absurd_originality": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The framing is amusingly odd.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "snack-based computing",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "meme_to_argument_conversion": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "The meme never becomes an argument.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "only slogans",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "community_discussion_value": {
+              "score": 3,
+              "confidence": 0.86,
+              "reason": "It would spread more than it would teach.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "quotable",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "overall_merit": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The panel sees entertainment value but limited paper value.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "funny",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          },
+          "major_strengths": [
+            "The joke is easy to parse."
+          ],
+          "major_weaknesses": [
+            "The manuscript has almost no checkable payload."
+          ],
+          "required_revisions": [
+            "Define a measurable task and gather evidence."
+          ],
+          "optional_revisions": [
+            "Reduce slogan density."
+          ],
+          "risk_flags": [],
+          "final_rationale": "The manuscript is lively but currently hollow.",
+          "community_facing_blurb": "An amusing snack-powered apparition that still needs an argument to qualify as a paper."
+        }
+      }
+    },
+    "created_at": "<normalized>"
+  },
+  "serious_but_misfit.json": {
+    "workflow_session_id": "<normalized>",
+    "manuscript_id": "serious-misfit-003",
+    "resolved_venue_profile": {
+      "preset_name": "shit-screening-default",
+      "venue_name": "S.H.I.T Initial Screening Desk",
+      "tone": "Independent initial screening for absurd submissions that may contain real payload and deserve the next review stage.",
+      "required_sections": [
+        "title",
+        "abstract",
+        "body",
+        "conclusion",
+        "limitations"
+      ],
+      "minimum_reviewable_characters": 200,
+      "scoring_weights": {
+        "venue_fit": 1.0,
+        "core_claim_clarity": 1.2,
+        "structural_integrity": 1.1,
+        "method_or_reasoning_legibility": 1.1,
+        "evidence_checkability": 1.0,
+        "result_payload": 1.25,
+        "limitation_honesty": 0.8,
+        "zhenghuo_execution": 1.0,
+        "absurd_originality": 1.0,
+        "meme_to_argument_conversion": 1.1,
+        "community_discussion_value": 0.9,
+        "overall_merit": 1.35
+      },
+      "rejection_rules": [
+        "missing_title_or_abstract_or_body_is_hard_failure",
+        "no_core_claim_caps_overall_at_two",
+        "no_checkable_evidence_caps_evidence_at_two",
+        "gimmick_without_payload_caps_overall_at_three",
+        "unsafe_or_abusive_content_sets_risk_flag",
+        "low_confidence_advancement_gate"
+      ],
+      "recommendation_policy": {
+        "advance_to_full_review_min_final_score": 4.2,
+        "advance_with_payload_reservations_min_final_score": 3.7,
+        "borderline_for_full_review_min_final_score": 2.8,
+        "payload_floor_for_advance": 3,
+        "venue_fit_floor_for_advance": 3
+      }
+    },
+    "paper_summary": "A solid edge-systems paper that feels imported from a different venue.",
+    "extracted_core_claim": "A deterministic scheduler can improve deadline behavior in constrained edge video workloads.",
+    "scores_by_dimension": {
+      "venue_fit": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "Strong technical work, weak venue alignment.",
+        "supporting_evidence": [
+          {
+            "excerpt": "serious edge-systems workshop",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "core_claim_clarity": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "The claim is explicit and technical.",
+        "supporting_evidence": [
+          {
+            "excerpt": "reduces latency variance",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "structural_integrity": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "The paper is structurally complete.",
+        "supporting_evidence": [
+          {
+            "excerpt": "Limitations",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "method_or_reasoning_legibility": {
+        "score": 5,
+        "confidence": 0.86,
+        "reason": "Method details are easy to follow.",
+        "supporting_evidence": [
+          {
+            "excerpt": "heuristic",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "evidence_checkability": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "Benchmarks and baselines support the claim.",
+        "supporting_evidence": [
+          {
+            "excerpt": "two baseline policies",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "result_payload": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "The paper does present a real technical contribution.",
+        "supporting_evidence": [
+          {
+            "excerpt": "improves deadline hit rate",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "limitation_honesty": {
+        "score": 4,
+        "confidence": 0.86,
+        "reason": "Limitations are acknowledged.",
+        "supporting_evidence": [
+          {
+            "excerpt": "limited workloads",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "zhenghuo_execution": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "No venue-aware bit is present.",
+        "supporting_evidence": [
+          {
+            "excerpt": "conventional",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "absurd_originality": {
+        "score": 2,
+        "confidence": 0.86,
+        "reason": "Original technically, not absurdly.",
+        "supporting_evidence": [
+          {
+            "excerpt": "deterministic scheduler",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "meme_to_argument_conversion": {
+        "score": 1,
+        "confidence": 0.86,
+        "reason": "No meme layer exists.",
+        "supporting_evidence": [
+          {
+            "excerpt": "sober",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "community_discussion_value": {
+        "score": 2,
+        "confidence": 0.86,
+        "reason": "Discussion value is better elsewhere.",
+        "supporting_evidence": [
+          {
+            "excerpt": "wrong room",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      },
+      "overall_merit": {
+        "score": 3,
+        "confidence": 0.86,
+        "reason": "A good paper in a different venue.",
+        "supporting_evidence": [
+          {
+            "excerpt": "solid systems engineering",
+            "source_type": "manuscript",
+            "source_section": null,
+            "note": null
+          }
+        ],
+        "uncertainty_note": null
+      }
+    },
+    "hard_failures": [],
+    "major_strengths": [
+      "Technically coherent and well-structured."
+    ],
+    "major_weaknesses": [
+      "Venue fit is low."
+    ],
+    "required_revisions": [
+      "Reframe for the venue or submit elsewhere."
+    ],
+    "optional_revisions": [
+      "Broaden the benchmark suite."
+    ],
+    "risk_flags": [],
+    "rule_hits": [],
+    "agent_failures": [],
+    "final_score": 3.14,
+    "final_recommendation": "REVISION_REQUIRED_BEFORE_REVIEW",
+    "final_rationale": "The paper is respectable but culturally out of place for an absurd-review venue. Recommendation basis: The reasoning is respectable, but the manuscript currently reads like a serious paper in the wrong room for this screening track.",
+    "human_readable_review": "Manuscript serious-misfit-003: A solid edge-systems paper that feels imported from a different venue.\nCore claim: A deterministic scheduler can improve deadline behavior in constrained edge video workloads.\nScreening decision: REVISION_REQUIRED_BEFORE_REVIEW\nWhy: The reasoning is respectable, but the manuscript currently reads like a serious paper in the wrong room for this screening track.\nStrengths: Technically coherent and well-structured.\nWeaknesses: Venue fit is low.\nRequired revisions: Reframe for the venue or submit elsewhere.\nRisk flags: none",
+    "community_facing_blurb": "Clean engineering wandered into the wrong carnival tent.",
+    "raw_agent_outputs": {
+      "HanCeGateAgent": {
+        "status": "success",
+        "artifact_type": "precheck_output",
+        "payload": {
+          "decision": "pass",
+          "minimum_reviewable": true,
+          "hard_failures": [],
+          "missing_sections": [],
+          "risk_flags": [],
+          "notes": [
+            "Structurally healthy submission."
+          ]
+        }
+      },
+      "EvidenceSludgeEngine": {
+        "status": "success",
+        "artifact_type": "evidence_output",
+        "payload": {
+          "paper_summary": "A conventional but competent systems paper on deterministic scheduling for edge analytics.",
+          "extracted_core_claim": "A deterministic scheduler reduces latency variance and improves deadline hit rate on constrained edge workloads.",
+          "argument_status": "clear",
+          "evidence_snippets": [
+            {
+              "excerpt": "compare it against two baseline policies",
+              "source_type": "manuscript",
+              "source_section": null,
+              "note": null
+            },
+            {
+              "excerpt": "reduces p95 latency variance",
+              "source_type": "manuscript",
+              "source_section": null,
+              "note": null
+            }
+          ],
+          "major_strengths": [
+            "The method and evaluation are concrete and reproducible."
+          ],
+          "major_weaknesses": [
+            "The manuscript does not attempt venue-aware absurd framing."
+          ],
+          "required_revisions": [
+            "Explain why the paper belongs in this venue, if it does."
+          ],
+          "optional_revisions": [
+            "Expand workload diversity."
+          ],
+          "risk_flags": [],
+          "dimension_scores": {
+            "core_claim_clarity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The central technical claim is explicit.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "reduces latency variance",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "structural_integrity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The manuscript is conventionally complete.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Method",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                },
+                {
+                  "excerpt": "Results",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                },
+                {
+                  "excerpt": "Limitations",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "method_or_reasoning_legibility": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The method is concrete and benchmarked.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "deterministic scheduling heuristic",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "evidence_checkability": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The baselines and benchmarks make the evidence inspectable.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "two baseline policies",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "result_payload": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "There is real systems payload.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "improves deadline hit rate",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "limitation_honesty": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The paper acknowledges limited workloads and hardware.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "limited to a small set of workloads",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          }
+        }
+      },
+      "AbsurdityButMakeItRigorous": {
+        "status": "success",
+        "artifact_type": "value_output",
+        "payload": {
+          "zhenghuo_verdict": "Technically good, culturally misplaced for this venue.",
+          "novelty_label": "serious_misfit",
+          "major_strengths": [
+            "The work is serious and useful."
+          ],
+          "major_weaknesses": [
+            "There is almost no venue-aware absurdity."
+          ],
+          "required_revisions": [
+            "If kept here, add a venue-aware framing layer without damaging the science."
+          ],
+          "optional_revisions": [
+            "Submit to a straighter venue."
+          ],
+          "risk_flags": [],
+          "dimension_scores": {
+            "venue_fit": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "The paper reads like a conventional systems submission.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "genuinely useful",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "zhenghuo_execution": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "There is no zhenghuo execution to evaluate.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "conventional",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "absurd_originality": {
+              "score": 2,
+              "confidence": 0.86,
+              "reason": "The technical work may be original, but not in this venue's mode.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "deterministic scheduler",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "meme_to_argument_conversion": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "There is no meme layer to convert.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "sober",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "community_discussion_value": {
+              "score": 2,
+              "confidence": 0.86,
+              "reason": "Discussion value is limited for this venue's audience.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "serious edge-systems workshop",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "overall_merit": {
+              "score": 3,
+              "confidence": 0.86,
+              "reason": "The work is decent but misaligned with the venue.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "solid systems engineering",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          }
+        }
+      },
+      "FinalSedimentCouncil": {
+        "status": "success",
+        "artifact_type": "meta_output",
+        "payload": {
+          "paper_summary": "A solid edge-systems paper that feels imported from a different venue.",
+          "extracted_core_claim": "A deterministic scheduler can improve deadline behavior in constrained edge video workloads.",
+          "scores_by_dimension": {
+            "venue_fit": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "Strong technical work, weak venue alignment.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "serious edge-systems workshop",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "core_claim_clarity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The claim is explicit and technical.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "reduces latency variance",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "structural_integrity": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "The paper is structurally complete.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "Limitations",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "method_or_reasoning_legibility": {
+              "score": 5,
+              "confidence": 0.86,
+              "reason": "Method details are easy to follow.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "heuristic",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "evidence_checkability": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "Benchmarks and baselines support the claim.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "two baseline policies",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "result_payload": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "The paper does present a real technical contribution.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "improves deadline hit rate",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "limitation_honesty": {
+              "score": 4,
+              "confidence": 0.86,
+              "reason": "Limitations are acknowledged.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "limited workloads",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "zhenghuo_execution": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "No venue-aware bit is present.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "conventional",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "absurd_originality": {
+              "score": 2,
+              "confidence": 0.86,
+              "reason": "Original technically, not absurdly.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "deterministic scheduler",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "meme_to_argument_conversion": {
+              "score": 1,
+              "confidence": 0.86,
+              "reason": "No meme layer exists.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "sober",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "community_discussion_value": {
+              "score": 2,
+              "confidence": 0.86,
+              "reason": "Discussion value is better elsewhere.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "wrong room",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            },
+            "overall_merit": {
+              "score": 3,
+              "confidence": 0.86,
+              "reason": "A good paper in a different venue.",
+              "supporting_evidence": [
+                {
+                  "excerpt": "solid systems engineering",
+                  "source_type": "manuscript",
+                  "source_section": null,
+                  "note": null
+                }
+              ],
+              "uncertainty_note": null
+            }
+          },
+          "major_strengths": [
+            "Technically coherent and well-structured."
+          ],
+          "major_weaknesses": [
+            "Venue fit is low."
+          ],
+          "required_revisions": [
+            "Reframe for the venue or submit elsewhere."
+          ],
+          "optional_revisions": [
+            "Broaden the benchmark suite."
+          ],
+          "risk_flags": [],
+          "final_rationale": "The paper is respectable but culturally out of place for an absurd-review venue.",
+          "community_facing_blurb": "Clean engineering wandered into the wrong carnival tent."
+        }
+      }
+    },
+    "created_at": "<normalized>"
+  }
+}

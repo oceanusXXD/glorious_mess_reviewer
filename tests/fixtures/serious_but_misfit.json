@@ -1,0 +1,8 @@
+{
+  "manuscript_id": "serious-misfit-003",
+  "title": "A Deterministic Scheduler for Resource-Constrained Edge Video Analytics",
+  "abstract": "We present a deterministic scheduler that reduces latency variance for edge video analytics workloads under tight memory and compute budgets.",
+  "body": "Introduction\nThis manuscript addresses task placement and deadline handling for edge video analytics. The writing is conventional, focused, and genuinely useful.\n\nMethod\nWe model each pipeline stage, introduce a deterministic scheduling heuristic, and compare it against two baseline policies. The implementation details are concrete enough for reproduction.\n\nResults\nAcross controlled benchmarks, the proposed scheduler reduces p95 latency variance and improves deadline hit rate under bursty input conditions. The evaluation is sober, clean, and empirical.\n\nDiscussion\nThe work is solid systems engineering, but it contains no playful framing, absurd thesis, or venue-aware zhenghuo layer. It reads like a competent paper for a serious edge-systems workshop.\n\nConclusion\nThe technique is practical and coherent.\n\nLimitations\nThe evaluation is limited to a small set of workloads and hardware profiles.",
+  "authors": ["D. Deterministic"],
+  "references": ["Edge Systems Workshop 2025"]
+}
